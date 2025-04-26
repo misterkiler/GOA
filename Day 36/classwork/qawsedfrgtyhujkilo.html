@@ -1,0 +1,100 @@
+<!-- შექმენით საიტი, სადაც გექნებათ სია, შემდეგ კი გასტილეთ ის ყველა property-თ და მნიშვნელობით, რაც აქამდე ვისწავლეთ,(გადახედეთ რესურსებს)
+
+* დაამატეთ ფორმა, რამდენიმე ინფუთ ელემენტით და ლეიბლით, ისიც გასიტლეთ მაქსიმალურად, გამოიყენეთ ნასწავლი მასალა.
+
+ეცადეთ რომ გქონდეთ დახვეწილი დიზაინი. -->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მარტივი საიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        li {
+            background-color: #fff;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        label, input {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>მარტივი საიტი</h1>
+
+    <h2>ჩემი სიები</h2>
+    <ul>
+        <li>პუნქტი 1</li>
+        <li>პუნქტი 2</li>
+        <li>პუნქტი 3</li>
+    </ul>
+
+    <h2>დამატებითი ინფორმაცია</h2>
+    <form>
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name" placeholder="თქვენი სახელი">
+
+        <label for="email">ელ. ფოსტა:</label>
+        <input type="email" id="email" name="email" placeholder="თქვენი ელ. ფოსტა">
+
+        <button type="submit">გაგზავნა</button>
+    </form>
+
+</body>
+</html>
